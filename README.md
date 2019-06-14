@@ -1,9 +1,20 @@
 # US-Gun-Violence
-Building a comprehensive dataset to analyze US gun violence trends using Google Maps' Geocoding API and BeautifulSoup
+Building a comprehensive dataset to analyze US gun violence trends with Google Maps' Geocoding API and BeautifulSoup
 
-Project data: 
+## Objective
+As famous as it is for gun violence, the US still has a lack of large and easily-accessible amounts of detailed data on this topic. This project aims to change that. By creating a well-rounded dataset that entails relevant fields such as shooting incidents' location, types of guns used, shooters and victims' age and relationship, criminal landscape and demographic details of the areas where shootings occur, we can make it easier for researchers and law enforcement entities to study gun violence patterns, build predictive models for future incidents and make more informed decisions on preventive measures.
 
-1. Gun violence data from Kaggle: `gun-violence.csv` 
+## Datasets and tools used
+1. Gun violence dataset from Kaggle detailing about 240,000 gun incidents in the US in the period of 2013 through 2018.
+2. US income per capita by cities and counties from Wikipedia
+3. US crime rate by cities from Wikipedia
+4. Google Maps' Geocoding API
+5. BeautifulSoup library for scraping HTML content
+
+
+## Project data
+
+#### 1. Gun violence data from Kaggle: `gun-violence.csv` 
 
 * incident_id
 * date: Date of crime
@@ -36,7 +47,7 @@ Project data:
 * state_senate_district: Territorial district from which a senator to a state legislature is elected.
 ________________________________
 
-2. Shooting locations - integrated with lat and long data pulled from Google API: `guns_location.csv`
+#### 2. Shooting locations - integrated with lat and long data pulled from Google API: `guns_location.csv`
 
 * address: address of the shooting
 * formatted address: address in the format that Google API can read and pass
@@ -47,7 +58,7 @@ ________________________________
 * zipcode: zip code of the incident
 ________________________________
 
-3. Gun violence data merged with lat and long data from API: `geodata.csv`
+#### 3. Gun violence data after being merged with latitude and longitude data from API: `geodata.csv`
 
 * location: newly created column that combines address with state and city/county 
 * latitude: coordinates of the address
@@ -82,9 +93,9 @@ ________________________________
 * state_senate_district: Territorial district from which a senator to a state legislature is elected.
 _______________________________
 
-4. Crime data scraped from Wikipedia: `crime_data.csv`
-state
+#### 4. Crime data scraped from Wikipedia: `crime_data.csv`
 
+* state
 * city
 * population
 * vc_total: total number of violence crimes 
@@ -99,9 +110,9 @@ state
 * pc_arson: total number of arson 
 _______________________________
 
-5. Income data scraped from Wikipedia: `income_data.csv`
-rank
+#### 5. Income data scraped from Wikipedia: `income_data.csv`
 
+* rank
 * county
 * state
 * per capita: income per capita
@@ -111,7 +122,7 @@ rank
 * number of households 
 _______________________________
 
-6. Final dataset: `final_data.csv`
+#### 6. Final dataset: `final_data.csv`
 
 * location: newly created column that combines address with state and city/county 
 * latitude: coordinates of the address
