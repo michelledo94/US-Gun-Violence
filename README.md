@@ -3,7 +3,7 @@ Building a comprehensive dataset to analyze US gun violence trends using Google 
 
 Project data: 
 
-1. Gun violence data from Kaggle: gun-violence.csv 
+1. Gun violence data from Kaggle: `gun-violence.csv` 
 
 * incident_id
 * date: Date of crime
@@ -36,7 +36,7 @@ Project data:
 * state_senate_district: Territorial district from which a senator to a state legislature is elected.
 ________________________________
 
-2. Shooting locations - integrated with lat and long data pulled from Google API: guns_location.csv
+2. Shooting locations - integrated with lat and long data pulled from Google API: `guns_location.csv`
 
 * address: address of the shooting
 * formatted address: address in the format that Google API can read and pass
@@ -47,7 +47,7 @@ ________________________________
 * zipcode: zip code of the incident
 ________________________________
 
-3. Gun violence data merged with lat and long data from API: geodata.csv 
+3. Gun violence data merged with lat and long data from API: `geodata.csv`
 
 * location: newly created column that combines address with state and city/county 
 * latitude: coordinates of the address
@@ -82,7 +82,7 @@ ________________________________
 * state_senate_district: Territorial district from which a senator to a state legislature is elected.
 _______________________________
 
-4. Crime data scraped from Wikipedia: crime_data.csv
+4. Crime data scraped from Wikipedia: `crime_data.csv`
 state
 
 * city
@@ -99,7 +99,7 @@ state
 * pc_arson: total number of arson 
 _______________________________
 
-5. Income data scraped from Wikipedia: income_data.csv
+5. Income data scraped from Wikipedia: `income_data.csv`
 rank
 
 * county
@@ -111,7 +111,7 @@ rank
 * number of households 
 _______________________________
 
-6. Final dataset: final_data.csv 
+6. Final dataset: `final_data.csv`
 
 * location: newly created column that combines address with state and city/county 
 * latitude: coordinates of the address
