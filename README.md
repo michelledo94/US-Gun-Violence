@@ -4,7 +4,7 @@ Building a comprehensive dataset to analyze US gun violence trends with Google M
 ## Objective
 By creating a well-rounded dataset that entails relevant fields such as shooting incidents' location, types of guns used, shooters and victims' age and relationship, criminal landscape and demographic details of the areas where shootings occur, we can make it easier for researchers and law enforcement entities to study gun violence patterns, build predictive models for future incidents and make more informed decisions on preventive measures.
 
-## Datasets and tools used
+## Datasets and stack used
 1. Gun violence dataset from Kaggle detailing about 240,000 gun incidents in the US in the period of 2013 through 2018.
 2. US income per capita by cities and counties from Wikipedia
 3. US crime rate by cities from Wikipedia
