@@ -1,4 +1,4 @@
-# US-Gun-Violence-Trends
+# US-Gun-Violence
 Building a comprehensive dataset to analyze US gun violence trends using Google Maps' Geocoding API and BeautifulSoup
 
 Project data: 
