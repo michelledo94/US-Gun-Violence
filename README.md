@@ -112,7 +112,7 @@ _______________________________
 
 #### 5. Income data scraped from Wikipedia: `income_data.csv`
 
-* rank
+* rank: income rank
 * county
 * state
 * per capita: income per capita
@@ -166,7 +166,7 @@ _______________________________
 * pc_larcenyTheft: total number of larceny thefts
 * pc_motorVehicleTheft: total number of motor vehicle thefts 
 * pc_arson: total number of arson 
-* rank
+* rank: income rank
 * per capita: income per capita
 * median household income
 * median family income
